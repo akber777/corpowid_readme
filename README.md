@@ -213,16 +213,6 @@ export default function MyComponent() {
 }
 ```
 
-### Available props for `AccessibilityRenderHtmlExternal`
-- `largerText`: number | null - Adjusts the font size of rendered HTML text
-- `fontSize`: number | null - Adjusts the font size of rendered HTML text
-- `hideImages`: number | null - Adjusts the font size of rendered HTML text
-- `textAlign`: "left" | "center" | "right" | null - Sets text alignment
-- `lineHeight`: number | null - Adjusts line height
-- `letterSpacing`: number | null - Controls letter spacing
-- `darkMode`: boolean - Detects and applies dark mode styling
-- `blueLightFilter`: number | null - Adjusts blue light filtering
-
 This component ensures that HTML content rendered within your app follows accessibility guidelines, including font adjustments, dark mode support, and custom styling.
 
 ## License
