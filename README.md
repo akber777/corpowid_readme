@@ -179,13 +179,9 @@ import { ThirdPartyImage } from 'some-image-library';
 
 function MyImage() {
   return (
-    <AccessibilityRenderImageExternal
-      renderItem={(props) => (
-        <ThirdPartyImage
-          source={{ uri: 'https://example.com/image.jpg' }}
-        />
-      )}
-    />
+     <AccessibilityRenderImageExternal>
+      <ThirdPartyImage source={{ uri: "https://example.com/image.jpg" }} />
+    </AccessibilityRenderImageExternal>
   );
 }
 ```
